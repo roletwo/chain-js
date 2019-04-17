@@ -1,4 +1,4 @@
-import { yo } from './src'
+import { yo } from '../src'
 
 test('Can yo', () => {
   expect(yo).toBe('yoo')
