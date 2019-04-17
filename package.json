@@ -1,7 +1,7 @@
 {
-  "name": "canx",
+  "name": "tpl-ts-package",
   "version": "0.0.1",
-  "description": "Powerful permission management.",
+  "description": "Template For Typescript-Based Node Package",
   "main": "index.js",
   "scripts": {
     "test": "npx jest --watch"
