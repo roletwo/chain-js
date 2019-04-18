@@ -1,10 +1,10 @@
 # Template For Typescript-Based Node Package
 
-> Please fill following fields with placehold "xxx"
+> Please fill following fields with placehold "{xxx}"
 
 ## Project Information
-- Main Problem this package solves: xxx.
-- Main language: xxx.
+- Main problem this package solves: {xxx}.
+- Main language: {Language}.
 
 ## Getting started
 
@@ -13,3 +13,13 @@ npm i # Install.
 npm t # Run test first.
 npm start # Start development.
 ``` 
+
+### {Can do this}
+
+{Example}
+
+### {Can do that}
+
+{Example}
+
+
