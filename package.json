@@ -4,7 +4,7 @@
   "description": "Template For Typescript-Based Node Package",
   "main": "index.js",
   "scripts": {
-    "test": "npx jest --watch"
+    "test": "npx jest"
   },
   "author": "Mosteast team",
   "license": "ISC",
