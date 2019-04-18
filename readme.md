@@ -1,6 +1,6 @@
 # Template For Typescript-Based Node Package
 
-Please fill following fields (search for "xxx" to fill)
+> Please fill following fields with placehold "xxx"
 
 ## Project Information
 - Main Problem this package solves: xxx.
@@ -12,5 +12,4 @@ Please fill following fields (search for "xxx" to fill)
 npm i # Install.
 npm t # Run test first.
 npm start # Start development.
-npm build # Build package for distribution.
 ``` 

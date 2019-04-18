@@ -1,8 +1,11 @@
 {
-  "name": "tpl-ts-package",
+  "name": "xxx",
   "version": "0.0.1",
-  "description": "Template For Typescript-Based Node Package",
-  "main": "index.js",
+  "homepage": "https://github.com/xxx/xxx#readme",
+  "repository": "github:xxx/xxx",
+  "types": "build/xxx.d.ts",
+  "description": "xxx",
+  "main": "xxx",
   "scripts": {
     "test": "npx jest"
   },
