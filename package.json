@@ -7,7 +7,7 @@
   "description": "xxx",
   "main": "xxx",
   "scripts": {
-    "test": "npx jest"
+    "test": "npx jest --coverage"
   },
   "author": "Mosteast team",
   "license": "ISC",
