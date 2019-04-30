@@ -3,12 +3,15 @@
     "target": "es5",
     "declaration": true,
     "sourceMap": true,
-    "outDir": "dist",
+    "outDir": "build",
+    "module": "commonjs",
     "moduleResolution": "node",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true
-  }
-  //  "include": [
-  //    "src/**/*"
-  //  ]
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "test"
+  ]
 }

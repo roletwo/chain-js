@@ -5,9 +5,11 @@
   "repository": "github:xxx/xxx",
   "types": "build/xxx.d.ts",
   "description": "xxx",
-  "main": "xxx",
+  "main": "build/index.js",
+  "type": "build/index.d.ts",
   "scripts": {
-    "test": "npx jest --coverage"
+    "test": "npx jest --coverage",
+    "build": "npx tsc"
   },
   "author": "Mosteast team",
   "license": "ISC",
