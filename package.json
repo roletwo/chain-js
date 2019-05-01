@@ -12,7 +12,7 @@
   ],
   "scripts": {
     "test": "npx jest --coverage",
-    "build": "npx tsc"
+    "build": "rm -fr ./build/* && npx tsc"
   },
   "author": "Mosteast team",
   "license": "ISC",
