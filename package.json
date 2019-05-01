@@ -13,8 +13,8 @@
   "scripts": {
     "test": "npx jest --coverage",
     "build": "rm -fr ./build/* && npx tsc",
-    "publish": "npm version patch && npm publish --access public",
-    "build_and_publish": "npm run build && npm run publish"
+    "pub": "npm version patch && npm publish --access public",
+    "build_and_pub": "npm run build && npm run pub"
   },
   "author": "Mosteast team",
   "license": "ISC",
