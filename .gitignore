@@ -1,6 +1,7 @@
 # Custom
 tmp/
 build/
+package-lock.json
 
 # IDE
 .idea
