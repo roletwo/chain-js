@@ -13,18 +13,18 @@
   "scripts": {
     "test": "npx jest --coverage",
     "build": "rm -fr ./build/* && npx tsc",
-    "pub": "npm version patch && npm publish --access public",
-    "build_and_pub": "npm run build && npm run pub"
+    "publish": "npm version patch && npm publish --access public",
+    "build_and_publish": "npm run build && npm run publish"
   },
   "author": "Mosteast team",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "@types/jest": "^24.0.11",
-    "@types/node": "^11.13.4",
-    "ts-node": "^8.4.1",
-    "jest": "^24.7.1",
-    "ts-jest": "^24.0.2",
-    "typescript": "^3.4.3"
+    "@types/jest": "^24.0.23",
+    "@types/node": "^11.15.3",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.2.0",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.2"
   }
 }
