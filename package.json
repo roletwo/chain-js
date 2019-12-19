@@ -12,7 +12,7 @@
   ],
   "scripts": {
     "test": "npx jest --coverage",
-    "build": "rm -fr ./build/* && npx tsc",
+    "build": "npx ts-node build.cli.ts",
     "release": "npm version patch && npm publish --access public",
     "build_and_release": "npm run build && npm run release"
   },
@@ -23,6 +23,7 @@
     "@types/jest": "^24.0.23",
     "@types/node": "^11.15.3",
     "jest": "^24.9.0",
+    "shelljs": "^0.8.3",
     "ts-jest": "^24.2.0",
     "ts-node": "^8.5.4",
     "typescript": "^3.7.2"

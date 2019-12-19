@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",
     "declaration": true,
     "sourceMap": true,
     "outDir": "build",
@@ -11,8 +11,11 @@
     "allowJs": true
   },
   "exclude": [
+    "build.cli.ts",
     "node_modules",
     "dist",
-    "test"
+    "build",
+    "test",
+    "**/*.test.ts"
   ]
 }
