@@ -14,8 +14,6 @@
     "build.cli.ts",
     "node_modules",
     "dist",
-    "build",
-    "test",
-    "**/*.test.ts"
+    "build"
   ]
 }
