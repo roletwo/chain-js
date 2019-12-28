@@ -1,10 +1,10 @@
 {
   "name": "@mosteast/xxx",
+  "description": "xxx",
   "version": "0.0.1",
   "homepage": "https://github.com/xxx/xxx#readme",
   "repository": "github:xxx/xxx",
   "types": "build/xxx.d.ts",
-  "description": "xxx",
   "main": "build/index.js",
   "type": "build/index.d.ts",
   "files": [
@@ -14,7 +14,7 @@
     "test": "npx jest --coverage",
     "build": "npx ts-node build.cli.ts",
     "release": "npm version patch && npm publish --access public",
-    "build_and_release": "npm run build && npm run release"
+    "build_and_release": "npm run build && cd build && npm run release"
   },
   "author": "Mosteast team",
   "license": "ISC",

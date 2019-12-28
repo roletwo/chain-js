@@ -5,6 +5,7 @@ dist/
 package-lock.json
 .env.json
 .DS_Store
+.env
 
 # IDE
 .idea
