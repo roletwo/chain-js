@@ -18,7 +18,9 @@
   },
   "author": "Mosteast team",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "debug": "^4.1.1"
+  },
   "devDependencies": {
     "@types/jest": "^24.0.23",
     "@types/node": "^11.15.3",
