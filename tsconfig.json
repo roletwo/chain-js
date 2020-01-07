@@ -7,8 +7,7 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
-    "allowJs": true
+    "emitDecoratorMetadata": true
   },
   "exclude": [
     "build.cli.ts",
