@@ -5,16 +5,16 @@
   "homepage": "https://github.com/xxx/xxx#readme",
   "repository": "github:xxx/xxx",
   "types": "build/xxx.d.ts",
-  "main": "bin/build/index.js",
+  "main": "build/index.js",
   "type": "build/index.d.ts",
   "files": [
-    "bin/build/"
+    "build/"
   ],
   "scripts": {
     "test": "npx jest --coverage",
-    "build": "./bin/build",
+    "build": "./build",
     "release": "npm publish --access public",
-    "build_and_release": "npm run build && cd bin/build && npm run release"
+    "build_and_release": "npm run build && cd build && npm run release"
   },
   "author": "Mosteast team",
   "license": "ISC",
