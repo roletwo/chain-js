@@ -10,7 +10,6 @@
     "emitDecoratorMetadata": true
   },
   "exclude": [
-    "build.cli.ts",
     "node_modules",
     "dist",
     "build"
