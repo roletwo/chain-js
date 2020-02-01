@@ -11,7 +11,7 @@
     "build/"
   ],
   "scripts": {
-    "test": "npx jest --coverage",
+    "test": "NODE_ENV=testing npx jest --coverage --runInBand --detectOpenHandles --forceExit",
     "build": "./bin/build",
     "release": "npm publish --access public",
     "build_and_release": "npm run build && cd build && npm run release"
@@ -22,7 +22,7 @@
   "devDependencies": {
     "@types/fs-extra": "^8.0.1",
     "@types/jest": "^24.9.1",
-    "@types/node": "^11.15.4",
+    "@types/node": "^11.15.5",
     "@types/shelljs": "^0.8.6",
     "fs-extra": "^8.1.0",
     "jest": "^24.9.0",
