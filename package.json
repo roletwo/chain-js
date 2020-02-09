@@ -4,7 +4,6 @@
   "version": "0.0.1",
   "homepage": "https://github.com/xxx/xxx#readme",
   "repository": "github:xxx/xxx",
-  "types": "build/xxx.d.ts",
   "main": "build/index.js",
   "type": "build/index.d.ts",
   "files": [
