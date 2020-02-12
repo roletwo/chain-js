@@ -52,7 +52,7 @@ function backup_git() {
     mkdir('-p', tmp_path)
     mv(git_path, git_backup_path)
     mv(git_backup_path, git_path)
-    cp(r('.gitignore'), b('.gitignore'))
+    copySync(r('.gitignore'), b('.gitignore'))
   }
 }
 
