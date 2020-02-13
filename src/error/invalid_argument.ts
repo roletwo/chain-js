@@ -8,7 +8,7 @@ export class Invalid_argument extends E {
   eid = EID_common.invalid_argument
   level = 'internal'
 
-  constructor(message: string, solution: string)
+  constructor(message: string, solution?: string)
   constructor(map: T_object, solution?: string)
   constructor(a, b?: any) {
     super()
@@ -19,7 +19,7 @@ export class Invalid_argument extends E {
     // Simple string error.
     if (ta === 'string' && tb === 'string') {
       this.message = a
-      this.solution = b
+      this.solution = b || ''
     } else {
       let message = 'Invalid arguments: '
       message += invalid_map(a)
