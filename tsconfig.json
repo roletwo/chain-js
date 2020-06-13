@@ -2,17 +2,20 @@
   "compilerOptions": {
     "strict": true,
     "target": "es6",
-    "declaration": true,
-    "sourceMap": true,
+    "declaration": false,
+    "sourceMap": false,
     "outDir": "build",
     "module": "commonjs",
     "moduleResolution": "node",
+    "allowJs": true,
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
+    "skipLibCheck": true
   },
   "exclude": [
     "node_modules",
-    "dist",
-    "build"
+    "build",
+    "tmp",
+    "test",
+    "**/*.test.ts"
   ]
 }
