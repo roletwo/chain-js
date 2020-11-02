@@ -2,7 +2,7 @@
   "compilerOptions": {
     "strict": true,
     "target": "es6",
-    "declaration": false,
+    "declaration": true,
     "sourceMap": false,
     "outDir": "build",
     "module": "commonjs",
