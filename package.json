@@ -11,7 +11,9 @@
   ],
   "scripts": {
     "test": "NODE_ENV=testing npx jest --coverage --runInBand --detectOpenHandles --forceExit",
-    "build": "./bin/build"
+    "build": "./bin/build",
+    "release": "npm publish --access public",
+    "build_and_release": "npm run build && cd build && npm run release"
   },
   "author": "Mosteast team",
   "license": "ISC",

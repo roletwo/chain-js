@@ -8,6 +8,7 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "allowJs": true,
+    "noImplicitAny": true,
     "experimentalDecorators": true,
     "skipLibCheck": true
   },
