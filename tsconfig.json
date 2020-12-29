@@ -6,7 +6,7 @@
       "esnext"
     ],
     "esModuleInterop": true,
-    "declaration": false,
+    "declaration": true,
     "sourceMap": false,
     "outDir": "build",
     "module": "commonjs",
