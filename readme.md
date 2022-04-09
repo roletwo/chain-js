@@ -54,7 +54,23 @@ dd69cc70c38242cfca1ddcb67d2d19fe3cfc3bd1868b3dbb176dfcfde8909e8b
 ### `read` - List blocks from public chain
 
 ```typescript
-await read(); // { ok: true, data: { list: [...], count: 5 }
+await read();
+/* Returns:
+ {
+   list: [
+     {
+       prev: 'a3a142d3659ed9ca37d5230e668f97b6cb24d45f71a5a4cd45fe38f2703b80f3',
+       parent: null,
+       ts: 1646953669070,
+       tid: '6058',
+       type: 'post',
+       format: 'json',
+       content: '{"content":{"text":"jojo-makes-happy\\nhttps://www.bilibili.com/bangumi/play/ep434543?spm_id_from=333.337.search-card.all.click\\n\\n\\n\\n\\n"},"id":6058,"owner_id":44,"reply_id":null,"type":"activity"}'
+     }
+   ],
+   count: 9
+ }
+*/
 ```
 
 ### `verify` - Verify a block with a given hash string
