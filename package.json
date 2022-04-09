@@ -1,25 +1,30 @@
 {
-  "name": "@mosteast/xxx",
-  "description": "xxx",
-  "version": "0.0.1",
-  "homepage": "https://github.com/xxx/xxx#readme",
-  "repository": "github:xxx/xxx",
+  "name": "@role2/chain",
+  "version": "1.0.6",
+  "description": "Role2 blockchain SDK for JavaScript",
+  "homepage": "https://github.com/roletwo/chain-js#readme",
+  "repository": "github:roletwo/chain-js",
+  "license": "ISC",
+  "author": "Mosteast team",
   "main": "build/index.js",
-  "type": "build/index.d.ts",
+  "bin": {
+    "chain": "src/cli/cli.js"
+  },
   "files": [
     "build/"
   ],
   "scripts": {
-    "test": "NODE_ENV=testing npx jest --coverage --runInBand --detectOpenHandles --forceExit",
     "build": "./bin/build",
+    "build_and_release": "npm run build && cd build && npm run release",
+    "format": "npx sort-package-json && npx prettier --write .",
     "release": "npm publish --access public",
-    "build_and_release": "npm run build && cd build && npm run release"
+    "test": "NODE_ENV=testing npx jest --coverage --runInBand --detectOpenHandles --forceExit"
   },
-  "author": "Mosteast team",
-  "license": "ISC",
   "dependencies": {
+    "@mosteast/chain": "^1.0.11",
     "@mosteast/common_eid": "^0.1.4",
-    "@mosteast/e": "^0.2.2"
+    "@mosteast/e": "^0.2.2",
+    "node-fetch-commonjs": "^3.1.1"
   },
   "devDependencies": {
     "@types/fs-extra": "^9.0.13",

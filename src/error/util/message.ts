@@ -1,5 +1,5 @@
-import { trim } from 'lodash'
-import { T_object } from '../../type'
+import { trim } from "lodash";
+import { T_object } from "../../type";
 
 /**
  * Serialize invalid map
@@ -12,11 +12,11 @@ import { T_object } from '../../type'
  * @param map
  */
 export function invalid_map(map: T_object): string {
-  let partial = ''
+  let partial = "";
 
   for (let key in map) {
-    partial += `${key}=${JSON.stringify(map[key])}, `
+    partial += `${key}=${JSON.stringify(map[key])}, `;
   }
 
-  return trim(partial, ', ')
+  return trim(partial, ", ");
 }

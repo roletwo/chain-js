@@ -1,5 +1,5 @@
 export interface T_object {
-  [key: string]: any
+  [key: string]: any;
 }
 
 /**
@@ -9,6 +9,6 @@ export interface T_object {
  * means different logic and action.
  */
 export enum E_level {
-  internal = 'internal',
-  external = 'external',
+  internal = "internal",
+  external = "external",
 }

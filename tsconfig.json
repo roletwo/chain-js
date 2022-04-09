@@ -2,9 +2,7 @@
   "compilerOptions": {
     "strict": true,
     "target": "es6",
-    "lib": [
-      "esnext"
-    ],
+    "lib": ["esnext"],
     "esModuleInterop": true,
     "declaration": true,
     "sourceMap": false,
@@ -15,11 +13,5 @@
     "experimentalDecorators": true,
     "skipLibCheck": true
   },
-  "exclude": [
-    "node_modules",
-    "build",
-    "tmp",
-    "test",
-    "**/*.test.ts"
-  ]
+  "exclude": ["node_modules", "build", "tmp", "test", "**/*.test.ts"]
 }
