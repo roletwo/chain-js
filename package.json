@@ -1,6 +1,6 @@
 {
   "name": "@role2/chain",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Role2 blockchain SDK for JavaScript",
   "homepage": "https://github.com/roletwo/chain-js#readme",
   "repository": "github:roletwo/chain-js",
