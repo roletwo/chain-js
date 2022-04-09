@@ -1,4 +1,6 @@
-# Mosteast general data chain SDK for JavaScript
+# Role2 blockchain SDK for JavaScript
+
+Online block browser: [role2.com/chain](https://www.role2.com/chain)
 
 ## Usage
 
