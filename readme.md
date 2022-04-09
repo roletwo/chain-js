@@ -66,7 +66,8 @@ await read();
        type: 'post',
        format: 'json',
        content: '{"content":{"text":"jojo-makes-happy\\nhttps://www.bilibili.com/bangumi/play/ep434543?spm_id_from=333.337.search-card.all.click\\n\\n\\n\\n\\n"},"id":6058,"owner_id":44,"reply_id":null,"type":"activity"}'
-     }
+     },
+     ...
    ],
    count: 9
  }
