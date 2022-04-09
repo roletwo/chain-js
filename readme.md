@@ -51,6 +51,12 @@ dd69cc70c38242cfca1ddcb67d2d19fe3cfc3bd1868b3dbb176dfcfde8909e8b
 
 ## API
 
+### `read` - List blocks from public chain
+
+```typescript
+await read(); // { ok: true, data: { list: [...], count: 5 }
+```
+
 ### `verify` - Verify a block with a given hash string
 
 #### Verify a simple block
