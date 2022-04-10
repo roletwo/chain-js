@@ -4,6 +4,9 @@ import { post } from "../utility/request";
 
 const base = "https://api.role2.com/";
 
+/**
+ * List blocks from public chain
+ */
 export async function read(
   page?: number,
   cli?: boolean

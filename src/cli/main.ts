@@ -3,7 +3,7 @@ import { read } from "../chain/read";
 
 export const cli = c.command({
   command: "read [page]",
-  describe: "Verify a block with hash",
+  describe: "List blocks from public chain",
   builder(argv) {
     return argv.positional("page", {
       describe: "page number, default: 0",
